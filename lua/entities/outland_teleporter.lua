@@ -3,9 +3,8 @@ AddCSLuaFile()
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = "Ineu Valley Portal"
-ENT.Author = "Lambda Gaming"
-ENT.Spawnable = true
-ENT.Category = "Ineu Valley Portal"
+ENT.Author = "OPGman"
+ENT.Spawnable = false
 
 function ENT:Initialize()
     self:SetModel( "models/hunter/plates/plate2x3.mdl" )
